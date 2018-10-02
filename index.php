@@ -130,7 +130,7 @@
         </div>
       </div>
       <div class="col s12 m4 l4">
-        <div class="card-panel transparent">
+        <div class="card-panel red">
             <h4 class="animatable bounceInRight"><img src="icons/bow-tie.png" alt=""></h4>
           <h4>Diferentões</h4>
           <span class="black-text">I am a very simple card. I am good at containing small bits of information.
