@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php include("header.php"); ?>
 
-  <div class="home">
+  <div id="home" class="home">
     <video autoplay muted loop id="myVideo">
       <source src="video/video1.mp4" type="video/mp4">
     </video>
@@ -130,7 +130,7 @@
         </div>
       </div>
       <div class="col s12 m4 l4">
-        <div class="card-panel red">
+        <div class="card-panel transparent ">
             <h4 class="animatable bounceInRight"><img src="icons/bow-tie.png" alt=""></h4>
           <h4>Diferentões</h4>
           <span class="black-text">I am a very simple card. I am good at containing small bits of information.
