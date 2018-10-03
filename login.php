@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <?php include("header.php"); ?>
 <div class="login">
-
+<div class="Cadastro">
   <div class="row">
-    <form class="col s12">
+    <div class="col s2"></div>
+    <form class="col s8">
       <div class="row">
         <div class="input-field col s6">
           <input placeholder="Placeholder" id="first_name" type="text" class="validate">
@@ -44,6 +45,6 @@
       </div>
     </form>
   </div>
-        
+  </div>
 </div>
 <?php include("footer.php"); ?>

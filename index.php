@@ -111,7 +111,7 @@
     <div class="row passos">
       <div class="col s12 m4 l4">
         <div class="card-panel transparent">
-          <h4 class="animatable bounceInLeft"><img src="icons/bow-tie.png" alt=""></h4>
+          <h4 class="animatable bounceIn"><img src="icons/bow-tie.png" alt=""></h4>
           <h4>Pacotes Completos</h4>
           <span class="black-text">I am a very simple card. I am good at containing small bits of information.
           I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
@@ -131,7 +131,7 @@
       </div>
       <div class="col s12 m4 l4">
         <div class="card-panel transparent ">
-            <h4 class="animatable bounceInRight"><img src="icons/bow-tie.png" alt=""></h4>
+            <h4 class="animatable bounceIn"><img src="icons/bow-tie.png" alt=""></h4>
           <h4>Diferentões</h4>
           <span class="black-text">I am a very simple card. I am good at containing small bits of information.
           I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
