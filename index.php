@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php include("header.php"); ?>
 
-  <div id="home" class="home">
+  <div class="home">
     <video autoplay muted loop id="myVideo">
       <source src="video/video1.mp4" type="video/mp4">
     </video>

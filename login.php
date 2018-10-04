@@ -1,49 +1,33 @@
 <!DOCTYPE html>
 <?php include("header.php"); ?>
 <div class="login">
-<div class="Cadastro">
+<div class="row">
+<div class="col s2 m5 lg5"></div>
+<div class="card-panel caixalogin transparent col s10 m6 lg6">
   <div class="row">
-    <div class="col s2"></div>
-    <form class="col s8">
-      <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
+  <div class="col lg12 s12 m12 center"><p class="titulocaixa">Já é cadastrado? <br>Entre com suas informações de login e senha</p></div>
+  </div>
+  <div class="row">
+    <div class="col s1 m1 lg1"></div>
+    <form class="col s12 m12 lg12">
       <div class="row">
         <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
+          <input placeholder="email " id="login" type="text" class="validate">
+          <label for="login">Login</label>
         </div>
-      </div>
+        </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-        </div>
+        <input placeholder="" id="senha" type="text" class="validate">
+          <label for="senha">Senha</label>        </div>
       </div>
       <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          This is an inline input field:
-          <div class="input-field inline">
-            <input id="email_inline" type="email" class="validate">
-            <label for="email_inline">Email</label>
-            <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
-          </div>
-        </div>
+        <div class="input-field col s6"> <a href="" class="botao1 animatable fadeInDown">Login</a> </div>
+        <div class="input-field col s6"> <a href="" class="botao1 animatable fadeInDown">Cadastrar</a> </div>
+
       </div>
     </form>
+  </div>
   </div>
   </div>
 </div>

@@ -14,8 +14,7 @@ $(document).ready(function () {
 
 $(  document).ready(function () {
   $(window).scroll(function () {
-    if($("#home").length > 0){
-
+    if($('.home').length > 0){
       if ($(window).scrollTop() > 300) {
         $('nav').removeClass('transparent');
         $('nav').addClass('green');

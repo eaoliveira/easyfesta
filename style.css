@@ -9,6 +9,13 @@
     bottom: 0;
     /* position: absolute; */
 }
+.titulocaixa{
+    padding: 5px;
+}
+.caixalogin{
+    margin-top: 15vh;
+    padding: 5px;
+}
 .como-funciona{
     padding-top: 10vh;
     /* height: 170vh; */

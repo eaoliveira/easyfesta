@@ -20,8 +20,8 @@
   <header>
     <div class="navbar-fixed">
       <nav class="green">
-        <div class="nav-wrapper transparent">
-          <a href="#!" class="brand-logo">  <i class="material-icons">wifi_tethering</i>EasyFesta</a>
+        <div class="nav-wrapper">
+          <a href="index.php" class="brand-logo">  <i class="material-icons">wifi_tethering</i>EasyFesta</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="sass.html">Cadastrar Salão</a></li>
