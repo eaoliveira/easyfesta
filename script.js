@@ -73,3 +73,12 @@ jQuery(function ($) {
 });
 
 // microtransicoes
+
+$(document).ready(function(){
+  const calendario =document.querySelector('.datepicker');
+M.Datepicker.init(calendario,{});
+//   $('.datepicker').datepicker(init);
+});
+        
+
+//calendário

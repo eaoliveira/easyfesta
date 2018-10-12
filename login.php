@@ -23,7 +23,7 @@
       </div>
       <div class="row">
         <div class="input-field col s6"> <a href="" class="botao1 animatable fadeInDown">Login</a> </div>
-        <div class="input-field col s6"> <a href="" class="botao1 animatable fadeInDown">Cadastrar</a> </div>
+        <div class="input-field col s6"> <a href="cadastro.php" class="botao1 animatable fadeInDown">Cadastrar</a> </div>
 
       </div>
     </form>

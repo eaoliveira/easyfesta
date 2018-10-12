@@ -1,5 +1,7 @@
 .home{
     height: 90vh;
+    background-color: #fff;
+
     /* background-color: #13a5745b; */
 }
 .login{
@@ -9,6 +11,10 @@
     bottom: 0;
     /* position: absolute; */
 }
+.cadastro{
+    height: 100vh;
+}
+
 .titulocaixa{
     padding: 5px;
 }
@@ -57,18 +63,29 @@ padding: 4vh;
     bottom: 0;
     min-width: 100%; 
     margin-bottom: 2px; 
+    /* border-radius: 0 0 10% 10%; */
+    /* -webkit-mask-image: linear-gradient(to top, transparent 1%, red 99%);
+    mask-image: linear-gradient(to top, transparent 1%, red 99%); */
+    -webkit-mask-image: url(/images/1.svg);
+    mask-image: url(/images/1.svg);
     /* min-height: 100%; */
 }
 .content {
+  
+    /* border-radius: 0 0 10% 10%; */
     position: absolute;
     bottom: 10;
     /* background: rgba(0, 0, 0, 0.5); */
     /* background: #84dfc05b; */
     color: #f1f1f1;
     width: 100%;
+    transition: font-size 3ms;
     /* padding: 20px; */
-      
 }
+/* .content h1:hover{
+    font-size: 30px;
+
+} */
 .content h1{
     align-content: center;      
 }
@@ -103,8 +120,11 @@ padding: 4vh;
 .imagem1{
     /* margin-top: 3rem; */
     width: 100%;
-    
-
+    /* border-radius: 100%; */
+    transition: width 3ms slideOut;
+}
+.imagem1:hover{
+    width: 103%;
 }
 @keyframes slidein {
     from {
