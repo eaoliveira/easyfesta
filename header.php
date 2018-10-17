@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="materialize/css/materialize.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="transicoes.css">
   <link rel="stylesheet" href="OwlCarousel/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
@@ -19,7 +19,7 @@
 <body>
   <header>
     <div class="navbar-fixed">
-      <nav class="green">
+      <nav class="blue">
         <div class="nav-wrapper">
           <a href="index.php" class="brand-logo">  <i class="material-icons">wifi_tethering</i>EasyFesta</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>

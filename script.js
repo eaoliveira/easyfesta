@@ -17,10 +17,10 @@ $(  document).ready(function () {
     if($('.home').length > 0){
       if ($(window).scrollTop() > 300) {
         $('nav').removeClass('transparent');
-        $('nav').addClass('green');
+        $('nav').addClass('red');
       } else {
         $('nav').addClass('transparent');
-        $('nav').removeClass('green');
+        $('nav').removeClass('red');
       }
     }
   });
